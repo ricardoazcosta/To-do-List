@@ -1,1 +1,152 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500&family=Dancing+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Alegreya Sans', sans-serif;
+    
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background: #3023ae;
+    background:-moz-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+    background: -webkit-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+    background: linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+
+}
+
+button {
+    cursor: pointer;
+}
+
+fieldset {
+    border-radius: 10px;
+    border-color:#c86dd7;
+    border-width: 5px;
+    
+}
+
+.NovaTarefa{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 5px rgb(146, 146, 159);
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+ul {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
+    
+}
+
+li {
+   
+    font-size: 1em;
+    font-style: italic;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    padding: 10px;
+    margin: 10px;
+}
+
+li button {
+    border: none;
+    background-color: #fff;
+    font-size: 1em;
+    float: right;
+    opacity: 0.6;
+    transition: opacity 1s;
+    
+}
+
+li button:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    color: #f60606;
+   
+}
+
+.title {
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 5px 5px black;
+    font-family: 'Dancing Script', cursive;
+}
+
+.text-center {
+    text-align: center;
+    font-style:italic;
+    font-size:  20px;
+}
+
+.button {
+    background-color: #000;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#modal {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);  
+}
+
+input {
+    width: 100%;
+    line-height: 50px;
+    text-indent: 10px;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.danger {
+    color: #30ae;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px 0 30px 0;
+    margin: 30px 0 30px 0;
+    width: 100%;
+    font-size: 1.2em;
+    color: #adbecf;
+}
+
+footer:hover {
+    transition: 1.3s;
+    color:#ffffff;
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+    font-size: 1.2em;
+    box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.50); 
+}
+
+
+img {
+   width: 5%;
+}
+
