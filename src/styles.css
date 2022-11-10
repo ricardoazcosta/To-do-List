@@ -144,8 +144,16 @@ footer:hover {
     box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.50); 
 }
 
+.link-img {
+  
+   width: 5vw;
+   height: 5vh;
 
-img {
-   width: 5%;
+}
+
+.git-img {
+    
+    width: 5vw;
+    height: 5vh;
 }
 
